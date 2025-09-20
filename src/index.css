@@ -1,0 +1,38 @@
+@import "tailwindcss";
+@reference "tailwindcss";
+
+:root {
+  --bg: #0f172a;
+  --muted: #94a3b8;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Default: dark theme */
+body {
+  @apply bg-slate-900 text-slate-100 antialiased;
+}
+
+/* Light theme when .dark class is present */
+.dark body {
+  @apply bg-white text-slate-900;
+}
+
+/* simple container utility */
+.container-wide {
+  @apply max-w-4xl mx-auto px-6;
+}
+
+/* subtle animation utility */
+.fade-up {
+  transform: translateY(8px);
+  opacity: 0;
+  transition: all 400ms ease;
+}
+
+.fade-up.in-view {
+  transform: translateY(0);
+  opacity: 1;
+}
