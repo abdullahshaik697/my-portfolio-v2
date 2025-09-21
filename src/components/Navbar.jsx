@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { siteMeta } from "../data";
 import { FaCode } from "react-icons/fa6";
-import { HiMenu, HiX } from "react-icons/hi"; // hamburger + close icons
+import { HiMenu, HiX } from "react-icons/hi"; 
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
