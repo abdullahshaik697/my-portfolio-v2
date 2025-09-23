@@ -27,7 +27,6 @@ export default function Contact() {
           <a
             href={siteMeta.github}
             target="_blank"
-            rel="noopener noreferrer"
             className="text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition"
           >
             <FaGithub size={28} />
@@ -35,7 +34,6 @@ export default function Contact() {
           <a
             href={siteMeta.linkedin}
             target="_blank"
-            rel="noopener noreferrer"
             className="text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition"
           >
             <FaLinkedin size={28} />
@@ -43,7 +41,6 @@ export default function Contact() {
           <a
             href={siteMeta.facebook}
             target="_blank"
-            rel="noopener noreferrer"
             className="text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition"
           >
             <FaFacebook size={28} />
@@ -51,7 +48,6 @@ export default function Contact() {
           <a
             href={siteMeta.instagram}
             target="_blank"
-            rel="noopener noreferrer"
             className="text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition"
           >
             <FaInstagram size={28} />

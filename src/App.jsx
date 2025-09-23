@@ -1,3 +1,4 @@
+import Certificates from "./components/Certificates";
 import Contact from "./components/Contact";
 import Education from "./components/Education";
 import Navbar from "./components/Navbar";
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <Rightside/>
       <Skills/>
+      <Certificates/>
       <Projects/>
       <Education/>
       <Contact/>

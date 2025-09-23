@@ -42,19 +42,16 @@ export default function Projects() {
                   <a
                     href={project.github}
                     target="_blank"
-                    rel="noopener noreferrer"
                     className="text-blue-500 hover:underline"
                   >
                     GitHub
                   </a>
-                  <a
-                    href={project.demo}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-yellow-300 hover:underline"
-                  >
-                    Live Demo
-                  </a>
+                  {project.demo ? (
+                    <a href={project.demo} target="_blank" className="text-yellow-300 hover:underline">
+                      Live Demo
+                    </a>
+                  ) : null}
+
                 </div>
               </div>
 

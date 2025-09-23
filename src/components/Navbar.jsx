@@ -21,7 +21,6 @@ export default function Navbar() {
         {/* Desktop Links */}
         <div className="hidden md:flex items-center gap-6 text-sm font-medium">
           <a href="#about" className="hover:text-slate-300">About</a>
-          <a href="#experience" className="hover:text-slate-300">Experience</a>
           <a href="#projects" className="hover:text-slate-300">Projects</a>
           <a href="#contact" className="hover:text-slate-300">Contact</a>
           <a
