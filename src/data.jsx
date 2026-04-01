@@ -12,20 +12,20 @@ export const siteMeta = {
   resume: '/resume.pdf',
 }
 
-export const skills = ['React', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS', 'JWT', 'GitHub','Bootstrap', 'REST APIs', 'EJS']
+export const skills = ['React', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS', 'JWT', 'GitHub','Bootstrap', 'REST APIs', 'EJS', "Typescript", "NeonDB", "PostgresQL"]
 
 // src/data.jsx
 
 export const certificates = [
+  
   {
     id: 1,
-    title: "CSS Certificate",
-    issuer: "Udemy",
-  },
-  {
-    id: 2,
     title: "Web & App Development",
     issuer: "SMIT Hyderabad",
+  },{
+    id: 2,
+    title: "CSS Certificate",
+    issuer: "Udemy",
   },
 ];
 
@@ -36,23 +36,30 @@ export const education = [
     degree:"Bachelor in Software Engineering",
     endDate: "Ongoing"
   },
-{
-  school:"G.H Hidayatullah College",
-  degree:"Intermediate",
-  endDate: "2022"
-},
-{
-  school:"Saifiya High School",
-  degree:"Matriculation",
-  endDate: "2020"
-},
+// {
+//   school:"G.H Hidayatullah College",
+//   degree:"Intermediate",
+//   endDate: "2022"
+// },
+// {
+//   school:"Saifiya High School",
+//   degree:"Matriculation",
+//   endDate: "2020"
+// },
 
 ]
 
-// import kk from "../public/assets/kk";
-
 
 export const projects = [
+
+  {
+    title: 'Github Profile Analyzer',
+    desc: "An AI-powered web app that analyzes any GitHub profile and delivers detailed developer insights — including skill level, ratings, strengths, and a downloadable PDF report",
+    tech: ['React', 'Express', 'Postgres', 'HeroUI', 'Google-OAuth', "Llama", 'Groq'],
+    github: 'https://github.com/abdullahshaik697/Github-Profile-Analyzer',
+    img: '/assets/profileAnalyzer.png',
+    demo: 'https://github-profile-analyzer-orpin.vercel.app/',
+  },
   {
     title: 'Restaurant Management System',
     desc: 'Full-stack app for managing orders, tables, and menu. Includes admin panel.',
