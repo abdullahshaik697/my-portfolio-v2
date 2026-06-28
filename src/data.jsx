@@ -53,6 +53,14 @@ export const education = [
 export const projects = [
 
   {
+    title: 'Jargon Translator',
+    desc: "An AI-powered web app that analyzes any professional document and delivers detailed and brutally honest translation of that document, explaining the jargon in simple terms.",
+    tech: ['React', 'Express', 'Postgres', 'HeroUI', 'Google-OAuth', "Llama", 'Groq'],
+    github: 'https://github.com/abdullahshaik697/Jargon-Translator',
+    img: '/assets/jargon.png',
+    demo: 'https://jargon-translator-seven.vercel.app/',
+  },
+  {
     title: 'Github Profile Analyzer',
     desc: "An AI-powered web app that analyzes any GitHub profile and delivers detailed developer insights — including skill level, ratings, strengths, and a downloadable PDF report",
     tech: ['React', 'Express', 'Postgres', 'HeroUI', 'Google-OAuth', "Llama", 'Groq'],
